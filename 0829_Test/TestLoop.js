@@ -7,12 +7,18 @@ var MyAry2 = new Array("AA", "BB", "CC", "DD");
 
 var Join = MyAry.join("--");
 
-console.info(Join);
+var Combin = MyAry.concat(MyAry2);
 
-console.info(MyAry2);
+//console.info(Combin); MyAry + MyAry2
+
+//console.info(Join);
+
+//console.info(MyAry2);
 
 for (var z = 1 ; z <= 9 ; z++) {
     for (var x = 1 ; x <= 9 ; x++) {
-        document.write (z + "*" + x + "=" + z*x);
+        //console.info (z + "*" + x + "=" + z*x);
     };
 };
+
+
