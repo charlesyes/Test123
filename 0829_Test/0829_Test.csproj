@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="jquery-2.2.4.js" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -76,6 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="TestLoop.html" />
+    <Content Include="TestLoop.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
