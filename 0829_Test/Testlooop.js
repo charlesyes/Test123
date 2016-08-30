@@ -27,10 +27,22 @@ for (var x = 0; x <= 10; x++) {
 if (Array.isArray(NumAry)) {
 }
 ;
-var ArrTest = new Array(); // 宣告一個新的陣列為 ArrTest
+var ArrTest = new Array();
 for (var i = 0; i < 10; i++) {
-    ArrTest[i] = i; // 開始建立陣列
+    ArrTest[i] = i;
 }
 for (i = 0; i < 10; i++) {
-    document.write(ArrTest[i]); // 開始輸出陣列
 }
+for (var x = 50; x >= 1; x -= 2) {
+}
+var TArr = new Array("QAZ", "WSX", "EDC", "RFV", "TGB");
+var ArrLength = TArr.length;
+var msg = "\n Test \n";
+for (var i = 0; i <= ArrLength; i++) {
+    console.info(msg + TArr);
+}
+;
+var myObj = new Object(), Name = "Charles", Num = "AAA", obj = new Object();
+myObj[Name] = "CC";
+myObj[Num] = 123456;
+console.log(myObj);
