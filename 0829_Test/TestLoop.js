@@ -10,3 +10,9 @@ var Join = MyAry.join("--");
 console.info(Join);
 
 console.info(MyAry2);
+
+for (var z = 1 ; z <= 9 ; z++) {
+    for (var x = 1 ; x <= 9 ; x++) {
+        document.write (z + "*" + x + "=" + z*x);
+    };
+};
